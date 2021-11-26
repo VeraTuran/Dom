@@ -4,7 +4,7 @@ console.log("nombre de tag html <p> :", pArray.length)
 let coucou = document.getElementById("coucou").textContent
 console.log("texte de coucou :", coucou)
 
-let thirdA = document.getElementsByTagName("a")[2]
+let thirdA = document.getElementsByTagName("a")[2].href
 console.log("URL 3è tag <a> :", thirdA )
 
 let countMe = document.getElementsByClassName("compte-moi").length
